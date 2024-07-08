@@ -46,6 +46,7 @@ rPwd.addEventListener("input", (event) => {
         rPwd.classList.remove("inputTextColor");
         
     }
+    //I could do the same in the previous if-statment, but I prefered this time a extra check på status
     if (rigthPwd == repetedPwd)
         sendBtn.removeAttribute("disabled");
     else
