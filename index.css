@@ -1,0 +1,59 @@
+html{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+
+.account-form-section{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background-color:cornflowerblue
+}
+
+.account-form-section .account-form{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.legend {
+    color: white;
+}
+
+.input-list{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: solid 1px whitesmoke;
+}
+
+
+.input-list .inputLayout {
+    margin-bottom: 1rem;
+    height: 10px;
+    padding: 1rem;
+}
+
+.send-button{
+    background-color: crimson;
+    color: white;
+    padding: 1rem;
+    border: 0;
+}
+
+.label-style{
+    color : white;
+}
+
+.inputTextColor {
+    color : red;
+}

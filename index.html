@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="account-form-section">
+        <fieldset class="input-list">
+            <legend class="legend">Create Account</legend>
+            <form class="account-form">
+                <label class="label-style" for="name">Name and Surname</label>
+                <input class="inputLayout" type="text" required placeholder="Name and Surname" id="name">
+                <label class="label-style" for="username">Username</label>
+                <input class="inputLayout" type="text" required placeholder="Min 8 chars" id="username">
+                <label class="label-style" for="mail">E-mail</label>
+                <input class="inputLayout" type="email" required placeholder="e-mail address" id="mail">
+                <label class="label-style" for="pwd">Password</label>
+                <input class="inputLayout" type="password" required placeholder="Min 8 chars" id="pwd">
+                <label class="label-style" for="rPwd">Repeat Password</label>
+                <input class="inputLayout" type="password" required placeholder="Min 8 chars" id="rPwd">
+                <button class="send-button" disabled type ="submit">Create Account</button>
+            </form>
+        </fieldset>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
